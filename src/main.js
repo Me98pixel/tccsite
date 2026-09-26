@@ -57,10 +57,6 @@ if (serviceImage && matchedServiceImage) {
   serviceImage.alt = matchedServiceImage[1];
 }
 
-document.querySelectorAll('.brand-logo').forEach((logo) => {
-  logo.src = 'assets/tcc-colored.png';
-});
-
 document.querySelectorAll('.reveal').forEach((item) => {
   item.classList.add('is-visible');
 });
