@@ -8,17 +8,24 @@
     <title>Services | Thames Carpentry &amp; Construction</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
       <link rel="stylesheet" href="src/style.css?v=26" />
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
     <script type="module" src="src/main.js"></script>
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Thames Carpentry and Construction home"><img class="brand-logo" src="assets/tcc.png" alt="Thames Carpentry and Construction" /></a>
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="services.html" aria-current="page">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="certificates.html">Certificates</a><a class="nav-contact" href="contact.html">Contact <span aria-hidden="true">↗</span></a>
+        <a href="services.html" aria-current="page">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="certificates.html">Certificates</a><a class="nav-contact" href="contact.html">Contact</a>
       </nav>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span class="menu-button-bars" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
     </header>
     <main id="top">
       <section class="page-hero dark-section">
@@ -28,56 +35,26 @@
       </section>
       <section class="services section-frame">
         <div class="service-list" aria-label="Services">
-          <a href="#service-carpentry"><span>01</span><strong>Carpentry</strong><span class="service-arrow" aria-hidden="true">↗</span></a>
-          <a href="#service-kitchens"><span>02</span><strong>Kitchens</strong><span class="service-arrow" aria-hidden="true">↗</span></a>
-          <a href="#service-flooring"><span>03</span><strong>Flooring</strong><span class="service-arrow" aria-hidden="true">↗</span></a>
-          <a href="#service-lofts"><span>04</span><strong>Loft conversions</strong><span class="service-arrow" aria-hidden="true">↗</span></a>
-          <a href="#service-extensions"><span>05</span><strong>Extensions</strong><span class="service-arrow" aria-hidden="true">↗</span></a>
-          <a href="#service-renovations"><span>06</span><strong>Renovations</strong><span class="service-arrow" aria-hidden="true">↗</span></a>
-          <a href="#service-new-builds"><span>07</span><strong>New builds</strong><span class="service-arrow" aria-hidden="true">↗</span></a>
-          <a href="#service-roofing"><span>08</span><strong>Cut &amp; truss roofing</strong><span class="service-arrow" aria-hidden="true">↗</span></a>
+          <a href="carpentry.html"><span>01</span><strong>Carpentry</strong></a>
+          <a href="kitchens.html"><span>02</span><strong>Kitchens</strong></a>
+          <a href="flooring.html"><span>03</span><strong>Flooring</strong></a>
+          <a href="loft-conversions.html"><span>04</span><strong>Loft conversions</strong></a>
+          <a href="extensions.html"><span>05</span><strong>Extensions</strong></a>
+          <a href="renovations.html"><span>06</span><strong>Renovations</strong></a>
+          <a href="new-builds.html"><span>07</span><strong>New builds</strong></a>
+          <a href="roofing.html"><span>08</span><strong>Cut &amp; truss roofing</strong></a>
         </div>
-      </section>
-      <section class="service-details" aria-label="Service details">
-        <article class="service-detail">
-          <div class="service-detail-copy">
-            <section class="service-offering" id="service-carpentry"><h2>Carpentry</h2><p>Tailored joinery, fitted interiors, and bespoke finishes that bring function and character to a space.</p></section>
-            <section class="service-offering" id="service-kitchens"><h2>Kitchens</h2><p>Practical, well-designed kitchen schemes that balance storage, workflow, and the finish you want to live with every day.</p></section>
-          </div>
-          <img class="service-detail-image" src="assets/project-01.jpg" alt="Kitchen and interior carpentry project from Thames Carpentry and Construction" loading="lazy" />
-        </article>
-        <article class="service-detail">
-          <div class="service-detail-copy">
-            <section class="service-offering" id="service-flooring"><h2>Flooring</h2><p>Quality floor installation and finishing that improves flow, comfort, and the overall feel of the room.</p></section>
-            <section class="service-offering" id="service-renovations"><h2>Renovations</h2><p>Thoughtful upgrades and remodels that revitalise tired spaces without losing the character of the home.</p></section>
-          </div>
-          <img class="service-detail-image" src="assets/project-02.jpg" alt="Flooring and renovation project from Thames Carpentry and Construction" loading="lazy" />
-        </article>
-        <article class="service-detail">
-          <div class="service-detail-copy">
-            <section class="service-offering" id="service-lofts"><h2>Loft conversions</h2><p>Smart conversions that create valuable extra space with careful planning, structure, and finish.</p></section>
-            <section class="service-offering" id="service-extensions"><h2>Extensions</h2><p>Extensions designed to feel like a natural part of the property, with clean detailing and practical layouts.</p></section>
-          </div>
-          <img class="service-detail-image" src="assets/project-03.jpg" alt="Loft conversion and extension project from Thames Carpentry and Construction" loading="lazy" />
-        </article>
-        <article class="service-detail">
-          <div class="service-detail-copy">
-            <section class="service-offering" id="service-new-builds"><h2>New builds</h2><p>Reliable structural work and finishing carried through with consistency, care, and a sharp eye for detail.</p></section>
-            <section class="service-offering" id="service-roofing"><h2>Cut &amp; truss roofing</h2><p>Roofing and structural framing work delivered to suit the build and the practical demands of the site.</p></section>
-          </div>
-          <img class="service-detail-image" src="assets/project-17.jpg" alt="Structural roofing and construction project from Thames Carpentry and Construction" loading="lazy" />
-        </article>
       </section>
       <section class="dark-cta section-frame dark-section">
         <p class="eyebrow">Enquiries</p>
         <h2>Service enquiries</h2>
         <p>Call Thames Carpentry and Construction on <a href="tel:+447966488012">07966 488 012</a>.</p>
-        <a class="button button-light" href="tel:+447966488012">Call now <span aria-hidden="true">↗</span></a>
+        <a class="button button-light" href="tel:+447966488012">Call now</a>
       </section>
     </main>
     <footer class="site-footer section-frame"><a class="footer-brand" href="index.html">TCC <span>Thames Carpentry &amp; Construction</span></a><a href="#top">Back to top ↑</a><span>© <span id="copyright-year"></span> TCC</span></footer>
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
-      <a href="services.html">Services <span aria-hidden="true">↗</span></a><a href="portfolio.html">Portfolio <span aria-hidden="true">↗</span></a><a href="about.html">About <span aria-hidden="true">↗</span></a><a href="certificates.html">Certificates <span aria-hidden="true">↗</span></a><a href="contact.html">Contact <span aria-hidden="true">↗</span></a>
+      <a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="certificates.html">Certificates</a><a href="contact.html">Contact</a>
     </nav>
   </body>
 </html>

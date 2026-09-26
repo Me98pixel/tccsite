@@ -8,17 +8,24 @@
     <title>Contact | Thames Carpentry &amp; Construction</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
       <link rel="stylesheet" href="src/style.css?v=28" />
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
     <script type="module" src="src/main.js"></script>
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Thames Carpentry and Construction home"><img class="brand-logo" src="assets/tcc.png" alt="Thames Carpentry and Construction" /></a>
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="certificates.html">Certificates</a><a class="nav-contact" href="contact.html" aria-current="page">Contact <span aria-hidden="true">↗</span></a>
+        <a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="certificates.html">Certificates</a><a class="nav-contact" href="contact.html" aria-current="page">Contact</a>
       </nav>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span class="menu-button-bars" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
     </header>
     <main id="top">
       <section class="contact-hero">
@@ -38,14 +45,14 @@
           <p>For service enquiries and project information, contact the team by phone or email.</p>
         </div>
         <div class="contact-methods">
-          <a class="contact-method" href="tel:+447966488012"><span class="contact-method-label">Phone</span><strong>07966 488 012</strong><span class="contact-method-arrow">Call the team ↗</span></a>
-          <a class="contact-method" href="mailto:info@thamescarpentryandconstruction.co.uk"><span class="contact-method-label">Email</span><strong>info@thamescarpentryandconstruction.co.uk</strong><span class="contact-method-arrow">Email the team ↗</span></a>
+          <a class="contact-method" href="tel:+447966488012"><span class="contact-method-label">Phone</span><strong>07966 488 012</strong><span class="contact-method-arrow">Call the team</span></a>
+          <a class="contact-method" href="mailto:info@thamescarpentryandconstruction.co.uk"><span class="contact-method-label">Email</span><strong>info@thamescarpentryandconstruction.co.uk</strong><span class="contact-method-arrow">Email the team</span></a>
         </div>
       </section>
     </main>
     <footer class="site-footer section-frame"><a class="footer-brand" href="index.html">TCC <span>Thames Carpentry &amp; Construction</span></a><a href="#top">Back to top ↑</a><span>© <span id="copyright-year"></span> TCC</span></footer>
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
-      <a href="services.html">Services <span aria-hidden="true">↗</span></a><a href="portfolio.html">Portfolio <span aria-hidden="true">↗</span></a><a href="about.html">About <span aria-hidden="true">↗</span></a><a href="certificates.html">Certificates <span aria-hidden="true">↗</span></a><a href="contact.html">Contact <span aria-hidden="true">↗</span></a>
+      <a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="certificates.html">Certificates</a><a href="contact.html">Contact</a>
     </nav>
   </body>
 </html>
