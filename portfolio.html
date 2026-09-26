@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project photographs from Thames Carpentry and Construction." />
+    <meta name="theme-color" content="#f7f9fb" />
+    <title>Portfolio | Thames Carpentry &amp; Construction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="src/style.css?v=26" />
+    <script type="module" src="src/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Thames Carpentry and Construction home"><img class="brand-logo" src="assets/tcc.png" alt="Thames Carpentry and Construction" /></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="services.html">Services</a><a href="portfolio.html" aria-current="page">Portfolio</a><a href="about.html">About</a><a href="certificates.html">Certificates</a><a class="nav-contact" href="contact.html">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+    </header>
+    <main id="top">
+      <section class="page-hero dark-section">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Project gallery</h1>
+        <p>Photographs from Thames Carpentry and Construction projects.</p>
+      </section>
+      <section class="work section-frame portfolio-page">
+        <div class="work-grid">
+          <a class="project project-feature reveal" href="assets/project-01.jpg" target="_blank" rel="noreferrer"><img src="assets/project-01.jpg" alt="Carpentry and construction project, portfolio image 1" loading="lazy" /></a>
+          <a class="project reveal" href="assets/project-02.jpg" target="_blank" rel="noreferrer"><img src="assets/project-02.jpg" alt="Carpentry and construction project, portfolio image 2" loading="lazy" /></a>
+          <a class="project reveal" href="assets/project-03.jpg" target="_blank" rel="noreferrer"><img src="assets/project-03.jpg" alt="Carpentry and construction project, portfolio image 3" loading="lazy" /></a>
+          <a class="project project-wide reveal" href="assets/project-17.jpg" target="_blank" rel="noreferrer"><img src="assets/project-17.jpg" alt="Carpentry and construction project, portfolio image 4" loading="lazy" /></a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer section-frame"><a class="footer-brand" href="index.html">TCC <span>Thames Carpentry &amp; Construction</span></a><a href="#top">Back to top ↑</a><span>© <span id="copyright-year"></span> TCC</span></footer>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="services.html">Services <span aria-hidden="true">↗</span></a><a href="portfolio.html">Portfolio <span aria-hidden="true">↗</span></a><a href="about.html">About <span aria-hidden="true">↗</span></a><a href="certificates.html">Certificates <span aria-hidden="true">↗</span></a><a href="contact.html">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </body>
+</html>
